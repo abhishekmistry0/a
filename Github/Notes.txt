@@ -1,0 +1,17 @@
+
+#Initialize:
+git init
+
+#check status:
+git status
+
+
+##Update
+#Local Update:
+git add .
+git commit -m "Added User test Admin" 
+
+#Remote Update:
+git fetch origin
+git merge origin/master
+git push origin master
